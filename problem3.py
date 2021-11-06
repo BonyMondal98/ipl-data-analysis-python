@@ -22,4 +22,5 @@ sns.set_style("darkgrid")
 plt.title("Numbers of Umpires from different countries.")
 sns.barplot(y=number_of_umpires.index,
             x=number_of_umpires.Umpire)
+plt.yticks(rotation=50)
 plt.savefig('./output/problem_3.png')

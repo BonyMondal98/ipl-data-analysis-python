@@ -18,5 +18,5 @@ sns.set_style("darkgrid")
 plt.title("Total runs by each team.")
 sns.barplot(y=total_runs_by_each_team.index,
             x=total_runs_by_each_team.total_runs)
+plt.yticks(rotation=58, horizontalalignment='right')
 plt.savefig('./output/problem_1.png')
-plt.show()
