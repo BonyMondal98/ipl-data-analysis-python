@@ -4,7 +4,13 @@ Project for IPL data munging in python
 
 ## Usage
 * Solution of each problem is present in the separate files.\
-Denoted as -> problem_1.py
+Denoted as -> problem_1.png
+
+* Run each problem by using this command:
+
+```
+python3 problem1.py
+```
 
 * All programs execute in the similar manner.
 * The result of each program is present inside the **output** directory.

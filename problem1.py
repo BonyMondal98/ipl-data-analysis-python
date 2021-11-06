@@ -15,8 +15,9 @@ deliveries = pd.read_csv(path_of_deliveries_file)
 total_runs_by_each_team = deliveries.groupby(
     'batting_team')[['total_runs']].sum()
 sns.set_style("darkgrid")
+plt.figure(figsize=(18,6))
 plt.title("Total runs by each team.")
 sns.barplot(y=total_runs_by_each_team.index,
             x=total_runs_by_each_team.total_runs)
-plt.yticks(rotation=58, horizontalalignment='right')
+plt.yticks(rotation=35)
 plt.savefig('./output/problem_1.png')

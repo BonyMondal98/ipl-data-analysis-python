@@ -20,6 +20,7 @@ number_of_umpires=umpire_is_not_indian.groupby('Nationality')[['Umpire']].count(
 # plotting dataset
 sns.set_style("darkgrid")
 plt.title("Numbers of Umpires from different countries.")
+plt.figure(figsize=(12, 6))
 sns.barplot(y=number_of_umpires.index,
             x=number_of_umpires.Umpire)
 plt.yticks(rotation=50)
