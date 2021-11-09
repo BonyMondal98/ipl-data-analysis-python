@@ -26,6 +26,8 @@ for deliver in my_deliveries:
 sns.set_style("darkgrid")
 plt.figure(figsize=(12, 7))
 plt.title("Extra runs conceded per team in the year 2016")
+plt.xlabel("Teams in the year 2016")
+plt.ylabel("Extra runs per team")
 plt.bar(*zip(*data.items()))
 plt.xticks(rotation=10)
 plt.savefig("./output/problem_5.png")
