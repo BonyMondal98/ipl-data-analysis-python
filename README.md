@@ -39,3 +39,11 @@ number of games played
 >* by season  
 
 ![problem 4 image](output/problem_4.png)
+
+#### 5. Extra runs conceded per team in the year 2016
+
+![problem 5 image](output/problem_5.png)
+
+#### 6. Top 10 Lowest Economy Rate of Bowlers in 2015
+
+![problem 6 image](output/problem_6.png)

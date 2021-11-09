@@ -21,7 +21,6 @@ for deliver in my_deliveries:
                 data[deliver[3]]+=int(deliver[16])
             else:
                 data[deliver[3]]=int(deliver[16])
-
 # Plot for extra runs runs conceded in the year 2016
 sns.set_style("darkgrid")
 plt.figure(figsize=(12, 7))
@@ -31,3 +30,5 @@ plt.ylabel("Extra runs per team")
 plt.bar(*zip(*data.items()))
 plt.xticks(rotation=10)
 plt.savefig("./output/problem_5.png")
+matches.close()
+deliveries.close()

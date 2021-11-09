@@ -79,8 +79,8 @@ plt.ylabel("Economy")
 plt.bar(*zip(*top_10_economical_bowlers_dict.items()))
 plt.xticks(rotation=-10)
 plt.savefig("./output/problem_6.png")
-
-
+matches.close()
+deliveries.close()
 
 
 
